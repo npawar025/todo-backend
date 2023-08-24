@@ -14,7 +14,7 @@ router.post("/save", saveToDo);
 
 router.patch("/update", updateToDo);
 
-router.post("/delete", deleteToDo);
+router.delete("/delete", deleteToDo);
 
 
 export default router;
